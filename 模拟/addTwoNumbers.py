@@ -3,7 +3,6 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-from Cython.Compiler.ExprNodes import ListNode
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
