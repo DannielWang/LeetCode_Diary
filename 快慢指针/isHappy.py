@@ -14,4 +14,3 @@ class Solution:
             turtle = get_next(turtle)
             rabbit = get_next(get_next(rabbit))
         return rabbit == 1
-
